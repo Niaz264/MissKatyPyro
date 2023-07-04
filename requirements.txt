@@ -29,3 +29,5 @@ cachetools
 cloudscraper
 openai
 GitPython
+flask
+flask_restful
