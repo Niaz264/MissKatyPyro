@@ -27,8 +27,8 @@ except:
 
 dotenv.load_dotenv("config.env", override=True)
 
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL")
-UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH")
+UPSTREAM_REPO_URL = https://github.com/yasirarism/MissKatyPyro
+UPSTREAM_REPO_BRANCH =master
 
 if all([UPSTREAM_REPO_URL, UPSTREAM_REPO_BRANCH]):
     if os.path.exists(".git"):
